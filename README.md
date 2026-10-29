@@ -22,7 +22,9 @@ Currently: looking for 2027 software engineering internships, contributing to op
 
 ## Open source
 
-- **[sciproof](https://github.com/hayagrivai-labs/sciproof)**: Added unit tests for error-handling paths in the LaTeX export (merged). [PR link](https://github.com/hayagrivai-labs/sciproof/pull/166)
+- **[sciproof](https://github.com/hayagrivai-labs/sciproof)**: Python CLI for reproducible scientific verification.
+  - Added a global `--quiet/-q` flag across `record`, `verify`, `calibrate` and `diff` for CI-friendly output, with results on stdout and diagnostics on stderr ([#170](https://github.com/hayagrivai-labs/sciproof/pull/170), closes #164)
+  - Added unit tests for error-handling paths in the LaTeX export ([#166](https://github.com/hayagrivai-labs/sciproof/pull/166))
 
 ## Skills
 
